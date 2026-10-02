@@ -27,7 +27,7 @@ Use:
 * [`../src/hilow_game.py`](../src/hilow_game.py) — optional program you constructed;
 * your graded [`../design/hilow_game.pseudo`](../design/hilow_game.pseudo);
 * the official Higher/Lower Game Sample Output;
-* the [SRS behavior verification cases](../analysis/hilow_game_srs.md#4-behavior-verification-cases); and
+* the [SRS behavior verification cases](../analysis/4-3_requirements.md#4-behavior-verification-cases); and
 * [`test_hilow_game.py`](test_hilow_game.py) — provided optional practice tests.
 
 Do not modify the provided test file to make a failing test pass.
@@ -152,7 +152,7 @@ If coding reveals a design error, revise the graded pseudocode first and then br
 
 If you have difficulty:
 
-* Review the [SRS behavior verification cases](../analysis/hilow_game_srs.md#4-behavior-verification-cases).
+* Review the [SRS behavior verification cases](../analysis/4-3_requirements.md#4-behavior-verification-cases).
 * Review [Construct](../src/README.md) for syntax, indentation, and incremental-development guidance.
 * See the [Module Four Assignment Wiki](https://github.com/GC-STEM/it140-m4-assignment/wiki) for supplemental testing and debugging explanations.
 * Use [GitHub Discussions](https://github.com/GC-STEM/it140-m4-assignment/discussions) for questions about optional practice tools.

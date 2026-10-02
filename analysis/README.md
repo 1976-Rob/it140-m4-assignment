@@ -10,7 +10,7 @@
 
 During the Analyze phase, your goal is to understand **what the Higher/Lower Game must do** before deciding how to express the solution in pseudocode.
 
-The **Module Four Assignment Guidelines and Rubric in D2L Brightspace** is the official source for assignment requirements. The official **Higher/Lower Game Sample Output** provides examples of program behavior. The provided [Software Requirements Specification (SRS)](hilow_game_srs.md) reorganizes the stated requirements into a software-development format so you can examine them systematically.
+The **Module Four Assignment Guidelines and Rubric in D2L Brightspace** is the official source for assignment requirements. The official **Higher/Lower Game Sample Output** provides examples of program behavior. The provided [Software Requirements Specification (SRS)](4-3_requirements.md) reorganizes the stated requirements into a software-development format so you can examine them systematically.
 
 The Analyze phase does not create a graded deliverable. It prepares you to create the graded pseudocode during Design.
 
@@ -18,7 +18,7 @@ The Analyze phase does not create a graded deliverable. It prepares you to creat
 
 **This phase does not produce a graded or submitted file.**
 
-You may record brief working notes in the [Software Development Worksheet (SDW)](../hilow_game_sdw.md). The SDW is a learning aid and is not submitted unless your instructor specifically asks for it.
+You may record brief working notes in the [Software Development Worksheet (SDW)](../4-3_worksheet.md). The SDW is a learning aid and is not submitted unless your instructor specifically asks for it.
 
 ## What You Will Use
 
@@ -26,8 +26,8 @@ Use these materials:
 
 * **Module Four Assignment Guidelines and Rubric** in D2L Brightspace — official assignment and grading requirements
 * **Higher/Lower Game Sample Output** in D2L Brightspace — official behavior examples
-* [Higher/Lower Game SRS](hilow_game_srs.md) — organized requirements reference
-* [Software Development Worksheet (SDW)](../hilow_game_sdw.md) — optional guided working notes
+* [Higher/Lower Game SRS](4-3_requirements.md) — organized requirements reference
+* [Software Development Worksheet (SDW)](../4-3_worksheet.md) — optional guided working notes
 
 Relevant zyBooks topics include:
 
@@ -71,7 +71,7 @@ The assignment allows output wording to differ. Focus on the required behavior r
 
 ### 3. Read the SRS
 
-Open the [SRS](hilow_game_srs.md) and read it from beginning to end.
+Open the [SRS](4-3_requirements.md) and read it from beginning to end.
 
 Pay particular attention to:
 
@@ -97,7 +97,7 @@ Identify:
 * what information is output; and
 * what work must repeat.
 
-Record these ideas in the Analyze section of the [SDW](../hilow_game_sdw.md), if useful.
+Record these ideas in the Analyze section of the [SDW](../4-3_worksheet.md), if useful.
 
 ### 5. Separate the Three Repetition Needs
 
@@ -145,7 +145,7 @@ Before continuing, make sure:
 
 If you have difficulty completing this phase:
 
-* Review the [SRS](hilow_game_srs.md) first.
+* Review the [SRS](4-3_requirements.md) first.
 * See the [Module Four Assignment Wiki](https://github.com/GC-STEM/it140-m4-assignment/wiki) for supplemental explanations.
 * Use [GitHub Discussions](https://github.com/GC-STEM/it140-m4-assignment/discussions) for questions about the repository or provided analysis materials.
 * Use [GitHub Issues](https://github.com/GC-STEM/it140-m4-assignment/issues) to report a technical problem with repository files or tools.

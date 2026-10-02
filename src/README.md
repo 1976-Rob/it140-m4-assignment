@@ -31,7 +31,7 @@ Use:
 * your completed [`../design/hilow_game.pseudo`](../design/hilow_game.pseudo);
 * the provided starter [`hilow_game.py`](hilow_game.py);
 * the Higher/Lower Game Sample Output;
-* the [SRS](../analysis/hilow_game_srs.md); and
+* the [SRS](../analysis/4-3_requirements.md); and
 * relevant zyBooks material.
 
 Useful Module Four sections include:

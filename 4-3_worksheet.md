@@ -115,7 +115,7 @@ Before moving to Design:
 
 ## 8. Plan the Major Stages
 
-**Where to look:** Your Analyze notes, SRS, and `design/hilow_game_sdd.md`.
+**Where to look:** Your Analyze notes, SRS, and `design/4-3_design.md`.
 
 **Prompt:** List the major stages of the game in order without writing the completed pseudocode here.
 

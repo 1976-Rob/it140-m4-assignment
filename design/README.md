@@ -18,7 +18,7 @@ Complete:
 
 * [`hilow_game.pseudo`](hilow_game.pseudo) — graded pseudocode
 
-The [Software Design Document (SDD)](hilow_game_sdd.md) provides design guidance without giving you a completed solution. The [SDW](../hilow_game_sdw.md) provides optional working space.
+The [Software Design Document (SDD)](4-3_design.md) provides design guidance without giving you a completed solution. The [SDW](../4-3_worksheet.md) provides optional working space.
 
 The course-provided [`hilow_game.drawio`](hilow_game.drawio) file is a reference artifact. Do not edit or submit it for this assignment.
 
@@ -28,9 +28,9 @@ Use:
 
 * the Module Four Assignment Guidelines and Rubric in D2L Brightspace;
 * the Higher/Lower Game Sample Output;
-* the [SRS](../analysis/hilow_game_srs.md);
-* the [SDD](hilow_game_sdd.md);
-* the optional [SDW](../hilow_game_sdw.md); and
+* the [SRS](../analysis/4-3_requirements.md);
+* the [SDD](4-3_design.md);
+* the optional [SDW](../4-3_worksheet.md); and
 * the pseudocode starter template.
 
 Relevant zyBooks topics include loops, `while` loops, decision branching, relational and Boolean expressions, indentation, and incremental development.
@@ -53,7 +53,7 @@ If any of these are unclear, return to the [Analyze Phase](../analysis/README.md
 
 ### 2. Plan the Major Stages
 
-Use the Design section of the [SDW](../hilow_game_sdw.md), if useful, to list the major stages in words before writing detailed pseudocode.
+Use the Design section of the [SDW](../4-3_worksheet.md), if useful, to list the major stages in words before writing detailed pseudocode.
 
 A useful design question is:
 
@@ -118,7 +118,7 @@ There is no single universal pseudocode language. Use consistent terms that make
 
 ### 6. Trace Required Behaviors
 
-Use the [SRS behavior verification cases](../analysis/hilow_game_srs.md#4-behavior-verification-cases) and the official sample output to trace your pseudocode by hand.
+Use the [SRS behavior verification cases](../analysis/4-3_requirements.md#4-behavior-verification-cases) and the official sample output to trace your pseudocode by hand.
 
 At minimum, make sure you can follow the design for:
 
@@ -169,7 +169,7 @@ The checks also verify basic repository integrity. They do **not** evaluate whet
 
 If you have difficulty completing this phase:
 
-* Compare the [SRS](../analysis/hilow_game_srs.md), [SDD](hilow_game_sdd.md), and your SDW notes one requirement at a time.
+* Compare the [SRS](../analysis/4-3_requirements.md), [SDD](4-3_design.md), and your SDW notes one requirement at a time.
 * Review the official Higher/Lower Game Sample Output for behavior examples.
 * See the [Module Four Assignment Wiki](https://github.com/GC-STEM/it140-m4-assignment/wiki) for supplemental explanations of pseudocode, validation, branching, and loops.
 * Use [GitHub Discussions](https://github.com/GC-STEM/it140-m4-assignment/discussions) for repository-related questions that do not request a completed graded solution.

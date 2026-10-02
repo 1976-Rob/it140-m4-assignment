@@ -17,8 +17,8 @@ Use these sources while designing:
 
 1. The Module Four Assignment Guidelines and Rubric
 2. The Higher/Lower Game Sample Output
-3. [`../analysis/hilow_game_srs.md`](../analysis/hilow_game_srs.md)
-4. Your optional [`../hilow_game_sdw.md`](../hilow_game_sdw.md) notes
+3. [`../analysis/4-3_requirements.md`](../analysis/4-3_requirements.md)
+4. Your optional [`../4-3_worksheet.md`](../4-3_worksheet.md) notes
 
 ## 2. Solution Overview
 

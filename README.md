@@ -74,7 +74,7 @@ Edit and submit:
 
 You may also edit:
 
-* [`hilow_game_sdw.md`](hilow_game_sdw.md) — Software Development Worksheet (SDW) working notes
+* [`4-3_worksheet.md`](4-3_worksheet.md) — Software Development Worksheet (SDW) working notes
 
 The SDW is a learning aid. It is not a graded deliverable unless your instructor specifically tells you otherwise.
 
@@ -205,7 +205,7 @@ Before leaving the device where you have been working:
 ```bash
 cd ~/Repos/it140-m4-assignment
 git status
-git add hilow_game_sdw.md design/hilow_game.pseudo src/hilow_game.py
+git add 4-3_worksheet.md design/hilow_game.pseudo src/hilow_game.py
 git commit -m "Save Module Four assignment progress"
 git push
 ```
@@ -232,8 +232,8 @@ During Analyze, focus on **what** the Higher/Lower Game must do. Use:
 
 * the official Guidelines and Rubric in D2L Brightspace;
 * the official Higher/Lower Game Sample Output;
-* the provided [Software Requirements Specification (SRS)](analysis/hilow_game_srs.md); and
-* the optional [Software Development Worksheet (SDW)](hilow_game_sdw.md).
+* the provided [Software Requirements Specification (SRS)](analysis/4-3_requirements.md); and
+* the optional [Software Development Worksheet (SDW)](4-3_worksheet.md).
 
 Pay particular attention to **what repeats** and **what stops each repetition**. The assignment requires validation for both the selected bounds and the player's guesses.
 
@@ -263,7 +263,7 @@ Save your files normally while you work in VS Code. Periodically commit and push
 ```bash
 cd ~/Repos/it140-m4-assignment
 git status
-git add hilow_game_sdw.md design/hilow_game.pseudo src/hilow_game.py
+git add 4-3_worksheet.md design/hilow_game.pseudo src/hilow_game.py
 git commit -m "Save Module Four assignment progress"
 git push
 ```
@@ -278,7 +278,7 @@ These commands:
 ---
 
 > [!NOTE]
-> If Git reports `nothing to commit, working tree clean`, your current files have already been committed. The `git push` command will still check whether your personal GitHub repository is up to date.  
+> If Git reports `nothing to commit, working tree clean`, your current files have already been committed. The `git push` command will still check whether your personal GitHub repository is up to date.
 
 ---
 

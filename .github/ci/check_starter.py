@@ -11,7 +11,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_PATH = REPO_ROOT / "src/hilow_game.py"
 TEST_PATH = REPO_ROOT / "tests/test_hilow_game.py"
 PSEUDOCODE_PATH = REPO_ROOT / "design/hilow_game.pseudo"
-SDW_PATH = REPO_ROOT / "hilow_game_sdw.md"
+SDW_PATH = REPO_ROOT / "4-3_worksheet.md"
 
 SOURCE_TODO_MARKERS = (
     "TODO: Replace with a one-line summary",

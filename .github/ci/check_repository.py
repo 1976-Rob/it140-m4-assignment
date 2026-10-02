@@ -17,7 +17,7 @@ from urllib.parse import unquote, urlsplit
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
 EDITABLE_PATHS = {
-    "hilow_game_sdw.md",
+    "4-3_worksheet.md",
     "design/hilow_game.pseudo",
     "src/hilow_game.py",
 }
@@ -43,12 +43,12 @@ REQUIRED_FILES = (
     ".github/workflows/tests.yml",
     ".vscode/settings.json",
     "analysis/README.md",
-    "analysis/hilow_game_srs.md",
+    "analysis/4-3_requirements.md",
     "design/README.md",
     "design/hilow_game.drawio",
     "design/hilow_game.pseudo",
-    "design/hilow_game_sdd.md",
-    "hilow_game_sdw.md",
+    "design/4-3_design.md",
+    "4-3_worksheet.md",
     "src/README.md",
     "src/hilow_game.py",
     "tests/README.md",
@@ -60,14 +60,14 @@ PROVIDED_MARKDOWN = (
     ".github/RЕADME.md",
     ".github/ci/README.md",
     "analysis/README.md",
-    "analysis/hilow_game_srs.md",
+    "analysis/4-3_requirements.md",
     "design/README.md",
-    "design/hilow_game_sdd.md",
+    "design/4-3_design.md",
     "src/README.md",
     "tests/README.md",
 )
 
-STARTER_MARKDOWN = ("hilow_game_sdw.md",)
+STARTER_MARKDOWN = ("4-3_worksheet.md",)
 
 REQUIRED_TEXT_MARKERS = {
     "README.md": (
@@ -107,7 +107,7 @@ REQUIRED_TEXT_MARKERS = {
         "## Check Your Work",
         "## Help and Support",
     ),
-    "analysis/hilow_game_srs.md": (
+    "analysis/4-3_requirements.md": (
         "# Software Requirements Specification (SRS)",
         "## 1. Functional Requirements",
         "## 2. Design Requirements",
@@ -120,13 +120,13 @@ REQUIRED_TEXT_MARKERS = {
         "## 7. Review Against the Rubric",
         "## 8. Review the Assignment Checks",
     ),
-    "design/hilow_game_sdd.md": (
+    "design/4-3_design.md": (
         "# Software Design Document (SDD)",
         "## 2. Solution Overview",
         "## 7. Requirements Traceability",
         "## 8. Design Review",
     ),
-    "hilow_game_sdw.md": (
+    "4-3_worksheet.md": (
         "# Software Development Worksheet (SDW)",
         "## How to Use This Worksheet",
         "# Analyze Phase",
