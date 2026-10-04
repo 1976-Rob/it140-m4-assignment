@@ -1,29 +1,54 @@
 # IT 140 Module Four Assignment
-# Higher/Lower Game Pseudocode Template
-#
-# Complete the TODO prompts below with your own pseudocode.
-# Keep this file in .pseudo format for submission.
-#
-# Use clear indentation to show decisions and repeated behavior.
-# Your finished pseudocode should address every requirement in the
-# current Module Four Assignment Guidelines and Rubric.
 
-START hilow_game
-
-    # Establish a valid guessing range.
-    TODO: Obtain the lower and upper bounds.
-    TODO: Repeat as needed until the bounds satisfy the requirement.
-
-    # Establish the number the player is trying to guess.
-    TODO: Generate the required random number from the valid range.
-
-    # Play the game.
-    TODO: Obtain and validate a guess using the selected bounds.
-    TODO: Repeat the required game behavior until the correct guess.
-        TODO: Compare a valid guess and provide the required feedback.
-        TODO: Obtain and validate another guess when play continues.
 
 END hilow_game
+START
 
-# === References ===
-# TODO: Add references for sources you used, or delete this line if unused.
+DISPLAY "Welcome to the Higher/Lower Game!"
+
+// Get valid lower and upper bounds
+INPUT lowerBound
+INPUT upperBound
+
+WHILE lowerBound >= upperBound
+    DISPLAY "Error: Lower bound must be less than upper bound."
+    INPUT lowerBound
+    INPUT upperBound
+END WHILE
+
+// Generate random number
+SET secretNumber = RANDOM number between lowerBound and upperBound
+
+// Get first guess
+INPUT guess
+
+WHILE guess < lowerBound OR guess > upperBound
+    DISPLAY "Error: Guess must be between ", lowerBound, " and ", upperBound
+    INPUT guess
+END WHILE
+
+// Continue game until correct guess
+WHILE guess != secretNumber
+
+    IF guess < secretNumber THEN
+        DISPLAY "Too low! Try again."
+
+    ELSE IF guess > secretNumber THEN
+        DISPLAY "Too high! Try again."
+
+    END IF
+
+    INPUT guess
+
+    WHILE guess < lowerBound OR guess > upperBound
+        DISPLAY "Error: Guess must be between ", lowerBound, " and ", upperBound
+        INPUT guess
+    END WHILE
+
+END WHILE
+
+DISPLAY "Congratulations! You guessed the number!"
+
+END
+
+
